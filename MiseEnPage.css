@@ -1,0 +1,119 @@
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8e9eab; /* Bleu */
+    color: #2a363b; /* Noir ou une couleur sombre pour le texte */
+}
+
+/* Header styles */
+header {
+    background-color: #2a363b; /* Bleu foncé */
+    color: #edf2f4; /* Blanc ou une couleur claire pour le texte */
+    text-align: center;
+    padding: 1em;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #4a4e69; /* Violet */
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #edf2f4; /* Blanc ou une couleur claire */
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+/* Section styles */
+section {
+    padding: 2em;
+}
+
+/* Ajoutez ces styles dans votre fichier styles.css */
+
+/* Styles pour la section À propos de moi */
+#accueil {
+    background-color: #c7ecee; /* Bleu clair */
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 10px;
+}
+
+/* Ajoutez ces styles dans votre fichier styles.css */
+
+/* Styles pour la section Éducation */
+#education {
+    background-color: #dfe6e9; /* Bleu clair */
+    padding: 2em;
+    margin: 2em 0;
+    border-radius: 10px;
+}
+
+#education h2 {
+    color: #2d3436; /* Gris foncé pour le titre */
+}
+
+#education h3 {
+    color: #3498db; /* Bleu pour les sous-titres */
+}
+
+#education p {
+    color: #34495e; /* Bleu foncé pour le texte */
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Marge inférieure supplémentaire pour le dernier paragraphe */
+#education p:last-child {
+    margin-bottom: 0;
+}
+
+
+#accueil h2 {
+    color: #2e86de; /* Bleu */
+}
+
+#accueil h3 {
+    color: #6a89cc; /* Violet */
+}
+
+#accueil p {
+    color: #34495e; /* Bleu foncé pour le texte */
+    line-height: 1.6;
+}
+
+#accueil ul {
+    color: #e84393; /* Fuchsia pour les listes à puces */
+    list-style-type: none;
+    padding: 0;
+}
+
+#accueil li {
+    margin-bottom: 0.5em;
+}
+
+#accueil a {
+    color: #e84393; /* Fuchsia pour les liens */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#accueil a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #2a363b; /* Bleu foncé */
+    color: #edf2f4; /* Blanc ou une couleur claire */
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
